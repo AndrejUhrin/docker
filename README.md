@@ -1,0 +1,5 @@
+In this project, we've built a Flask web application that displays a simple message along with a visitor counter, which increases with every visit. We've containerized the application using Docker, ensuring that it runs consistently across different environments. Additionally, we've incorporated Redis for storing the visitor count and demonstrated how to use Docker volumes for data persistence.
+
+During the process, we've used Docker Compose to manage multiple services, such as the Flask app and Redis database, in a single configuration. Also, we've enhanced security by managing sensitive information like passwords using environment variables, so the information will not be published on Github.
+
+Finally, we've customized the website by adding additional pages and functionality, such as adding image and link to HWR website, creating navigation menu to Github, Home page and Titanic page, where we displayed first 5 columns of the Titanic dataset and visualized how many people by gender survived with a bar chart.

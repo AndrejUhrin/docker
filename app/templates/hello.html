@@ -7,9 +7,18 @@
     <title>My first dynamic Website</title>
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
 </head>
-
 <body>
     <main>
+        <img src="https://upload.wikimedia.org/wikipedia/de/thumb/9/90/Hochschule_f%C3%BCr_Wirtschaft_und_Recht_Berlin_logo.svg/2560px-Hochschule_f%C3%BCr_Wirtschaft_und_Recht_Berlin_logo.svg.png" alt="HWR Berlin Logo" width="400" height="400">
+        <br>
+        <a class="button" href="https://www.hwr-berlin.de/">I'm a button with a link to hwr website</a>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/titanic">Titanic</a></li>
+                <li><a href="https://github.com/AndrejUhrin">About</a></li>
+            </ul>
+        </nav>
         <h1>I have been seen {{ count }} times.</h1>
         <ul>
             {% for i in range(1, count+1) %}
@@ -17,6 +26,9 @@
             {% endfor %}
         </ul>
     </main>
+    <footer>
+        <p>Created by Andrej Uhrin</p>
+    </footer>
 </body>
 
 </html>
